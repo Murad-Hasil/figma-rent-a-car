@@ -4,20 +4,20 @@ const Hero: React.FC = () => {
     return (
         <div className="relative min-h-screen flex flex-col bg-gray-100">
             <div className="relative flex flex-col md:flex-row justify-around items-center flex-1 p-6">
-                <div className="bg-blue-600 text-white p-8 rounded-xl flex-1 m-4">
+                <div className="bg-[#54A6FF] text-white p-8 rounded-xl flex-1 m-4">
                     <h2 className="text-3xl font-bold mb-4">The Best Platform <br /> for Car Rental</h2>
                     <p className="mb-4">Ease of doing a car rental safely and <br /> reliably. Of course at a low price.</p>
-                    <button className="bg-white text-blue-600 px-6 py-2 rounded-full">Rental Car</button>
+                    <button className="bg-[#3563E9] text-[#fafafa] px-6 py-2 rounded-[4px]">Rental Car</button>
                     <div className="">
                         <img src="/Koenigsegg.png" alt="White Sports Car" className="w-[406px] h-[116px] ml-24" />
                     </div>
                 </div>
-                <div className="bg-blue-800 text-white p-8 rounded-xl flex-1 m-4">
+                <div className="bg-[#3563E9] text-white p-8 rounded-xl flex-1 m-4">
                     <h2 className="text-3xl font-bold mb-4">Easy way to rent a <br /> car at a low price</h2>
                     <p className="mb-4">Providing cheap car rental services <br /> and safe and comfortable facilities.</p>
-                    <button className="bg-white text-blue-600 px-6 py-2 rounded-full">Rental Car</button>
+                    <button className="bg-[#54A6FF] text-[#fafafa] px-6 py-2 rounded-[4px]">Rental Car</button>
                     <div className="">
-                        <img src="/Nissan GT - R.png" alt="Silver Sports Car" className="w-[350px] h-[100px] ml-36" />
+                        <img src="/Nissan GT - R.png" alt="Silver Sports Car" className="w-[406px] h-[116px] ml-24" />
                     </div>
                 </div>
             </div>
