@@ -11,7 +11,7 @@ const cars = [
     fuelCapacity: '90L',
     transmission: 'Manual',
     seatingCapacity: '2 People',
-    image: '/koenigsegg.png',
+    image: '/Koenigsegg.png',
     isLiked: true,
   },
   {
@@ -162,7 +162,7 @@ function PickDropForm({ className = '' }) {
       </div>
 
       <div className="flex items-center justify-center md:mt-10">
-        <Image src={'/switch.png'} alt="Switch" width={90} height={90} />
+        <Image src={'/Switch.png'} alt="Switch" width={90} height={90} />
       </div>
 
       <div className="flex flex-col bg-white w-full shadow-md md:w-[440px] h-auto rounded-[10px] p-6">

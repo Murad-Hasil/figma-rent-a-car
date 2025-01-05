@@ -38,7 +38,7 @@ export default function PickDropForm() {
 
         {/* Switch button */}
         <div className="flex items-center justify-center mt-4 md:mt-10">
-          <Image src={'/switch.png'} alt="Switch" width={100} height={100} />
+          <Image src={'/Switch.png'} alt="Switch" width={100} height={100} />
         </div>
 
         {/* Drop off location information */}

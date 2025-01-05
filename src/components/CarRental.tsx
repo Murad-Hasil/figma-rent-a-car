@@ -13,7 +13,7 @@ const KoenigseggCard = () => {
       <div className="text-gray-400 font-bold text-sm mb-2">Sport</div>
       {/* Car Image */}
       <Image
-        src="/koenigsegg.png"
+        src="/Koenigsegg.png"
         alt="Koenigsegg"
         width={1000}
         height={1000}
