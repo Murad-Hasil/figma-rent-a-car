@@ -15,28 +15,28 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-lg font-semibold text-gray-800">About</h3>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">How it works</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Featured</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Partnership</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Business Relation</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">How it works</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Featured</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Partnership</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Business Relation</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold text-gray-800">Community</h3>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Events</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Blog</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Podcast</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Invite a friend</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Events</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Blog</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Podcast</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Invite a friend</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold text-gray-800">Socials</h3>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Discord</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Instagram</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Facebook</a></li>
-                            <li><a href="#" className="text-gray-600 hover:text-gray-900">Twitter</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Discord</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Instagram</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Facebook</a></li>
+                            <li><a href="#" className="text-gray-600 hover:text-gray-900 hover:underline">Twitter</a></li>
                         </ul>
                     </div>
                 </div>
