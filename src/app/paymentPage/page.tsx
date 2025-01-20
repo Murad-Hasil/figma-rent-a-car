@@ -277,7 +277,7 @@ export default function PaymentPage() {
                 </div>
                 <div className="flex gap-2">
                   <Image
-                    src="/visa.png"
+                    src="/Visa.png"
                     alt="Visa"
                     width={40}
                     height={40}
@@ -348,7 +348,7 @@ export default function PaymentPage() {
                   <span>PayPal</span>
                 </div>
                 <Image
-                  src="/paypal.png"
+                  src="/PayPal.png"
                   alt="PayPal"
                   width={80}
                   height={80}
@@ -370,7 +370,7 @@ export default function PaymentPage() {
                   <span>Bitcoin</span>
                 </div>
                 <Image
-                  src="/bitcoin.png"
+                  src="/Bitcoin.png"
                   alt="Bitcoin"
                   width={80}
                   height={80}
