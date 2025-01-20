@@ -135,7 +135,7 @@ const CarCard = ({ car }: { car: Car }) => {
           )}
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          <Link href={"/detailsCar"}>Rent Now</Link>
+          <Link href={"/paymentPage"}>Rent Now</Link>
         </button>
       </div>
     </div>
