@@ -100,9 +100,9 @@ export default function DetailsCar() {
                 </div>
 
                 <p className="mt-4 text-[#90A3BF] text-[16px]">
-                  NISMO has become the embodiment of Nissan's outstanding
+                  NISMO has become the embodiment of Nissan&apos;s outstanding
                   performance, inspired by the most unforgiving proving ground,
-                  the "race track".
+                  the &apos;race track&apos;.
                 </p>
 
                 <div className="mt-8 grid grid-cols-4 gap-16">

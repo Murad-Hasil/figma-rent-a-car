@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 interface ReviewProps {
   name: string;
@@ -31,8 +32,10 @@ function ReviewCard({ name, position, date, review, rating }: ReviewProps) {
   return (
     <div className="bg-white rounded-xl p-5 shadow-sm">
       <div className="flex items-start gap-4">
-        <img
+        <Image
           alt={`${name} avatar`}
+          width={100}
+          height={100}
           className="rounded-full h-12 w-12 object-cover"
           src={`/${name === "Alex Stanton" ? "profile" : "Profill-2"}.png`}
         />
