@@ -20,27 +20,48 @@ const CarCard: React.FC<CarCardProps> = ({ name, type, fuelCapacity, transmissio
     <div className="relative bg-white p-4 rounded-[10px] shadow-lg w-full max-w-[280px] h-auto mx-auto">
       {/* Heart Icon */}
       <div className="absolute top-4 right-4">
-        <Image src={isLiked ? "/heart.png" : "/Like.png"} alt="Heart Icon" width={24} height={24} />
+        <Image
+          src={isLiked ? "/heart.png" : "/Like.png"}
+          alt="Heart Icon"
+          width={24}
+          height={24}
+        />
       </div>
       <h3 className="text-lg font-semibold">{name}</h3>
       <div className="text-gray-500 text-sm mb-2">{type}</div>
       {/* Car Image */}
-      <Image src={image} alt={name} width={1000} height={1000} className="w-full h-auto object-cover rounded-md mb-4" />
+      <Image
+        src={image}
+        alt={name}
+        width={1000}
+        height={1000}
+        className="w-full h-auto object-cover rounded-md mb-4"
+      />
       <div className="flex flex-wrap items-center space-x-2 mb-4 mt-12">
         <Image src="/gas-station.png" alt="Fuel Icon" width={20} height={20} />
         <span className="text-gray-500 text-sm">{fuelCapacity}</span>
         <Image src="/manual.png" alt="Manual Icon" width={20} height={20} />
         <span className="text-gray-500 text-sm">{transmission}</span>
-        <Image src="/profile-2user.png" alt="People Icon" width={20} height={20} />
+        <Image
+          src="/profile-2user.png"
+          alt="People Icon"
+          width={20}
+          height={20}
+        />
         <span className="text-gray-500 text-sm">{seatingCapacity}</span>
       </div>
       <div className="flex justify-between items-center">
         <div className="text-black text-sm font-bold mb-4">
           ${price}.00/ <span className="text-gray-500">day</span>
-          {oldPrice && <><br /><del className="text-gray-400">${oldPrice}.00</del></>}
+          {oldPrice && (
+            <>
+              <br />
+              <del className="text-gray-400">${oldPrice}.00</del>
+            </>
+          )}
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          Rent Now
+          <Link href={"/detailsCar"}>Rent Now</Link>
         </button>
       </div>
     </div>
@@ -161,7 +182,7 @@ const RecomendationCar = () => {
       <div className="flex justify-between items-center mt-10 mb-10 max-w-[1200px] mx-auto">
         <div className="flex justify-center w-full">
           <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-            <Link href={'/categorypage'}>
+            <Link href={'/categoryPage'}>
             Show more car
             </Link>
           </button>

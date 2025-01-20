@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const KoenigseggCard = () => {
@@ -37,7 +38,7 @@ const KoenigseggCard = () => {
           $99.00/ <span className="text-gray-500">day</span>
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          Rent Now
+          <Link href={"/detailsCar"}>Rent Now</Link>
         </button>
       </div>
     </div>
@@ -80,7 +81,7 @@ const NissanGTRCard = () => {
           <del className="text-gray-400">$100.00</del>
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          Rent Now
+          <Link href={"/detailsCar"}>Rent Now</Link>
         </button>
       </div>
     </div>
@@ -122,7 +123,7 @@ const RollsRoyceCard = () => {
           $96.00/ <span className="text-gray-500">day</span>
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          Rent Now
+          <Link href={"/detailsCar"}>Rent Now</Link>
         </button>
       </div>
     </div>
@@ -165,7 +166,7 @@ const SecondNissanGTRCard = () => {
           <del className="text-gray-400">$100.00</del>
         </div>
         <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-          Rent Now
+          <Link href={"/detailsCar"}>Rent Now</Link>
         </button>
       </div>
     </div>
