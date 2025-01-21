@@ -320,7 +320,7 @@ export default function CategoryPage() {
         </div>
         <div className="flex justify-center mt-10 mb-10">
           <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-            <Link href={"/"}>Showmore car</Link>
+            <Link href={""}>Showmore car</Link>
           </button>
         </div>
       </div>
