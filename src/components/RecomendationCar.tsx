@@ -182,7 +182,7 @@ const RecomendationCar = () => {
       <div className="flex justify-between items-center mt-10 mb-10 max-w-[1200px] mx-auto">
         <div className="flex justify-center w-full">
           <button className="bg-[#3563e9] hover:bg-blue-500 transition-colors duration-300 text-white px-4 py-2 rounded">
-            <Link href={'/categoryPage'}>
+            <Link href={'/category'}>
             Show more car
             </Link>
           </button>
